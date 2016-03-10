@@ -8,7 +8,7 @@ package com.github.chanming.collection;
  */
 public class R
 {
-    int count;
+    public int count;
 
     /** @author XuMaoSen
      */
