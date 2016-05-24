@@ -1,4 +1,4 @@
-package com.github.chanming.net;
+package com.github.chanming.net.udp;
 
 /**
  * Description: 
