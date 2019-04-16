@@ -7,14 +7,14 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Description: Create Date:2019年4月11日
- *
- * @author XuMaoSen Version:1.0.0
+ * Description:
+ * Create Date:2019年4月16日
+ * @author XuMaoSen
  */
-@Target({ElementType.TYPE, ElementType.METHOD})
+@Target(ElementType.PARAMETER)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface MyRequestMapping
+public @interface MyRequestParam
 {
-    String value() default "";
+    String value();
 }
