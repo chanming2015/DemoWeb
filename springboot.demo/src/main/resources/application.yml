@@ -1,0 +1,12 @@
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
